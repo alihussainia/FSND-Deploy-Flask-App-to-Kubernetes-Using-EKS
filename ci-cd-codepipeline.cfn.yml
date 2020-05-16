@@ -12,7 +12,7 @@ Parameters:
     Default: simple-jwt-api
     MinLength: 1
     MaxLength: 100
-    ConstraintDescription: You must enter the EKS cluster name,please enter it
+    ConstraintDescription: You must enter the EKS cluster name
 
   GitSourceRepo:
     Type: String
@@ -56,7 +56,7 @@ Parameters:
 
   KubectlRoleName:
     Type: String
-    Default: UdacityFlaskDeployCBKubectlRole
+    Default: eksctl-simple-jwt-api-cluster-ServiceRole-18VF36IM0H9WQ
     Description: IAM role used by kubectl to interact with EKS cluster
     MinLength: 3
     MaxLength: 100
