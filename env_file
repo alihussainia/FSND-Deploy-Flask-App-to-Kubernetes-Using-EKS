@@ -1,2 +1,2 @@
-JWT_SECRET="mysecret"
+JWT_SECRET="secret"
 LOG_LEVEL=DEBUG
