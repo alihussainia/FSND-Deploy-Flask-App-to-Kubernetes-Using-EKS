@@ -1,11 +1,10 @@
-git_key.txt
-
 .DS_Store
 .env
 .flaskenv
 *.pyc
 *.pyo
 env/
+env*
 dist/
 build/
 *.egg
@@ -27,3 +26,4 @@ htmlcov/
 # Direnv
 .envrc
 .direnv
+aws-auth-patch.yml
